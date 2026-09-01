@@ -1,7 +1,7 @@
 package com.example.pet_shop
 
-class Happy(activity: String): Mood(activity) {
+class Sad(date: String): Mood(date) {
     override fun getMood(): String {
-        return "Yay"
+        return "Aww"
     }
 }
